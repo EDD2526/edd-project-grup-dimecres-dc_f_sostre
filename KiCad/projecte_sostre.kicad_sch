@@ -4,322 +4,242 @@
 	(generator_version "9.0")
 	(uuid "12dc51a9-2603-4518-b497-f55f3848c2a7")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Buffer:CDCV304"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+	(lib_symbols)
+	(text "SOSTRE SOLAR\n"
+		(exclude_from_sim no)
+		(at 136.398 36.068 0)
+		(effects
+			(font
+				(size 5.08 5.08)
 			)
-			(property "Value" "CDCV304"
-				(at 6.35 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-				(at 5.08 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cdcv304.pdf"
-				(at 5.08 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0-200 MHz 1:4 Clock Buffer, PCI-X Compliant, TSSOP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "texas quadruple"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSSOP*4.4x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CDCV304_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CDCV304_1_1"
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "CLKIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "V_{DD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "1Y0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "1Y1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "1Y2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "1Y3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
 		)
+		(uuid "05e00949-cee9-44d6-b560-8df30e4a2ef8")
 	)
-	(symbol
-		(lib_id "Buffer:CDCV304")
-		(at 62.23 67.31 0)
-		(unit 1)
+	(text "Proyecte Sostre Solar\n"
+		(exclude_from_sim no)
+		(at 198.628 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06269762-fd2e-4c6a-9787-dcecbbe6b1a9")
+	)
+	(text "MICROPROCESADOR\n"
+		(exclude_from_sim no)
+		(at 64.262 48.768 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "20377382-f061-4028-a200-0fcb21d32041")
+	)
+	(text "POWER/SUPPLY"
+		(exclude_from_sim no)
+		(at 220.472 47.498 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4b33c906-6fb5-4288-9793-99abb5cf0f85")
+	)
+	(text "ANALOGICA\n"
+		(exclude_from_sim no)
+		(at 63.5 108.458 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "62407e57-2321-497c-85ca-3d783c2254ff")
+	)
+	(text "Fet per:\nMarc Baillo\nNabel Khrourouch\n"
+		(exclude_from_sim no)
+		(at 178.816 171.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89fe91de-4a8d-4a41-bf2e-eca5e2a58eac")
+	)
+	(text "DIGITAL\n"
+		(exclude_from_sim no)
+		(at 219.964 108.712 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "d28a4b74-dcc8-4ea4-8105-09c4c97febf4")
+	)
+	(sheet
+		(at 179.07 52.07)
+		(size 83.82 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43df50e5-9498-4921-8617-593d8328982a")
-		(property "Reference" "U1"
-			(at 64.3733 54.61 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34d9cf6f-a994-4628-b3ba-09455bb98cce")
+		(property "Sheetname" "Power_Supply"
+			(at 179.07 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "CDCV304"
-			(at 64.3733 57.15 0)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 179.07 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at 67.31 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cdcv304.pdf"
-			(at 67.31 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0-200 MHz 1:4 Clock Buffer, PCI-X Compliant, TSSOP-8"
-			(at 62.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ae47907f-4bb1-4b75-9f52-9b86b4814faf")
-		)
-		(pin "1"
-			(uuid "c0b26c77-d60a-48b3-92cc-20f7e97b5b77")
-		)
-		(pin "2"
-			(uuid "7aa289d4-92fd-4a81-8ff5-43d48b5ae76c")
-		)
-		(pin "4"
-			(uuid "d03f6347-e694-485d-822a-f5a29fe451e5")
-		)
-		(pin "8"
-			(uuid "bc9cb8a6-03b7-44df-85fa-db62497997ac")
-		)
-		(pin "6"
-			(uuid "d2302923-ba9f-46e3-a2e4-d5305d4b7751")
-		)
-		(pin "5"
-			(uuid "7f61e6c0-99ad-4a54-9897-7ba525c477e6")
-		)
-		(pin "7"
-			(uuid "9f3277ec-9897-4e81-ad28-13ddcbf6118e")
 		)
 		(instances
-			(project ""
+			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7"
-					(reference "U1")
-					(unit 1)
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 113.03)
+		(size 87.63 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bf3896e-63f4-4f44-a4cf-df6a5fe85a2d")
+		(property "Sheetname" "Digital"
+			(at 177.8 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_proyecto___.kicad_sch"
+			(at 177.8 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 53.34)
+		(size 76.2 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c88be03b-6e8b-44bb-b016-6e24045923b9")
+		(property "Sheetname" "Microprocesador"
+			(at 29.21 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micro_proyecto____.kicad_sch"
+			(at 29.21 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 113.03)
+		(size 76.2 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4e158bc-7b20-484f-8f94-ff020121094e")
+		(property "Sheetname" "Analogica"
+			(at 30.48 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogica_proyecto_.kicad_sch"
+			(at 30.48 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7"
+					(page "4")
 				)
 			)
 		)
