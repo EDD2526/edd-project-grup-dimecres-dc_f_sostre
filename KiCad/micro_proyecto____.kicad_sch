@@ -3510,7 +3510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "003d4cd9-b36a-407a-9282-d107030fe78c")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 243.84 128.27 90)
 			(effects
 				(font
@@ -3560,6 +3560,12 @@
 			(uuid "735596b7-2808-4c08-bb52-08230847a34c")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "C1")
@@ -3578,7 +3584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3044154e-d21d-4c12-be26-d473cd977a74")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR?"
 			(at 41.91 118.11 0)
 			(effects
 				(font
@@ -3626,6 +3632,12 @@
 			(uuid "507a97af-ba77-422a-8651-e1fc4dc4f4f5")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR010")
@@ -3644,7 +3656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31f57bb3-03a9-4d82-ab07-f0c2a8d2d6d6")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 209.55 49.53 0)
 			(effects
 				(font
@@ -3692,6 +3704,12 @@
 			(uuid "870df02b-2e20-4ffa-a9f8-d7a480371e39")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR04")
@@ -3710,7 +3728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c9771eb-be7f-410f-9d3b-87af4f60ac9e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR?"
 			(at 194.31 143.51 0)
 			(effects
 				(font
@@ -3758,6 +3776,12 @@
 			(uuid "21413fe3-e964-4d00-a04a-333579b06518")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR013")
@@ -3776,7 +3800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42646d2b-796c-44ee-9357-ea11d99554f7")
-		(property "Reference" "J2"
+		(property "Reference" "J?"
 			(at 25.4 78.74 0)
 			(effects
 				(font
@@ -3835,6 +3859,12 @@
 			(uuid "5cc630a8-2506-4ddd-bb90-ce40bc330123")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "J2")
@@ -3853,7 +3883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f2d2814-5617-4fc4-b18d-d17390b2385c")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 44.45 119.3799 0)
 			(effects
 				(font
@@ -3905,6 +3935,12 @@
 			(uuid "35f3968d-1408-4bc6-9e94-7af52d75ba3c")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "R1")
@@ -3922,7 +3958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "743a4c78-1494-44eb-90fd-9fc92f065b2f")
-		(property "Reference" "C4"
+		(property "Reference" "C?"
 			(at 39.624 56.134 0)
 			(effects
 				(font
@@ -3972,6 +4008,12 @@
 			(uuid "9414947b-7299-4e1f-8e00-3290d5e9d1ba")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "C4")
@@ -3991,7 +4033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c04074f-7f2b-4009-be32-16381170b034")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 226.9333 59.69 0)
 			(effects
 				(font
@@ -4173,6 +4215,12 @@
 			(uuid "2b44e0c0-76b6-4138-a7ab-6d743ff9425b")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "U2")
@@ -4191,7 +4239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81c93132-d2dc-4b2c-a335-8db1454762bc")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR?"
 			(at 22.86 154.94 0)
 			(effects
 				(font
@@ -4239,6 +4287,12 @@
 			(uuid "8b6afd3f-4977-400f-b0b3-54e5e7cca8e6")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR012")
@@ -4256,7 +4310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dc0a772-e06a-4fca-b414-5aed7ae754fc")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 222.25 144.78 0)
 			(effects
 				(font
@@ -4304,6 +4358,12 @@
 			(uuid "b8bf09ad-0ec2-46bf-a80d-49d3498496cb")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR06")
@@ -4322,7 +4382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9437c166-1023-43b2-b5af-c8f6f87f1c9f")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -4375,6 +4435,12 @@
 			(uuid "cc2e083e-8119-4990-a252-8e3bc08d2f09")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "J1")
@@ -4393,7 +4459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ded441d-18a5-4774-b3e7-8d0f9af00568")
-		(property "Reference" "Y1"
+		(property "Reference" "Y?"
 			(at 35.56 40.64 0)
 			(effects
 				(font
@@ -4443,6 +4509,12 @@
 			(uuid "5b1b32fd-1987-45a8-a557-bbb6679879ed")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "Y?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "Y1")
@@ -4460,7 +4532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a22e81a7-124b-4ade-805d-f2d6f6f42ff1")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR?"
 			(at 67.31 134.62 0)
 			(effects
 				(font
@@ -4508,6 +4580,12 @@
 			(uuid "63d63440-fda0-4839-a842-53d6a91c657f")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR011")
@@ -4526,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b09ff4c7-79f1-476d-b7d5-b144634f45fc")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR?"
 			(at 46.99 88.9 0)
 			(effects
 				(font
@@ -4574,6 +4652,12 @@
 			(uuid "9fbce263-c4bf-484d-a5eb-b21826f0018c")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR09")
@@ -4591,7 +4675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c98739b9-2dc6-4818-94f9-3c75c34c94ab")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 209.55 66.04 0)
 			(effects
 				(font
@@ -4639,6 +4723,12 @@
 			(uuid "b15fcb76-6994-4071-b4f0-c5f56cbd5fa4")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR03")
@@ -4656,7 +4746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf706e47-3e05-4986-b367-a6e2b1a28b97")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 252.73 143.51 0)
 			(effects
 				(font
@@ -4704,6 +4794,12 @@
 			(uuid "26c78bd4-2fc7-4458-b4d7-5c915edf4c14")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR02")
@@ -4721,7 +4817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5df1cf7-addb-452c-b54d-a921f1851be4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR?"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -4769,6 +4865,12 @@
 			(uuid "42dc2bc1-5349-47e0-b7b3-4b4925ad8d82")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR07")
@@ -4787,7 +4889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae58b74-52a0-4129-a2e9-8a20683e9899")
-		(property "Reference" "FB1"
+		(property "Reference" "FB?"
 			(at 26.67 156.1591 0)
 			(effects
 				(font
@@ -4839,6 +4941,12 @@
 			(uuid "8d0f2e52-9c3a-43c9-b937-3a5c8aa2efb4")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "FB?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "FB1")
@@ -4856,7 +4964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df4e1277-323f-486e-a96d-f822b5d68094")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -4904,6 +5012,12 @@
 			(uuid "fba317b5-a7b1-4d92-99e3-1d68b779f8ff")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR01")
@@ -4922,7 +5036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e116a60d-e3ac-45b3-a9d1-048282ad847f")
-		(property "Reference" "SW1"
+		(property "Reference" "SW?"
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -4972,6 +5086,12 @@
 			(uuid "6c352cad-b398-4584-8b3c-3afb12db5445")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "SW1")
@@ -4990,7 +5110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2438928-a629-4b82-9336-6a10c9dc8c4d")
-		(property "Reference" "C5"
+		(property "Reference" "C?"
 			(at 46.99 160.0199 0)
 			(effects
 				(font
@@ -5042,6 +5162,12 @@
 			(uuid "bd01402c-5885-484c-80f5-2bf852b87ea6")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "C5")
@@ -5059,7 +5185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e846c27a-ca86-4491-a0a5-1981bcd859a2")
-		(property "Reference" "C3"
+		(property "Reference" "C?"
 			(at 24.384 56.134 0)
 			(effects
 				(font
@@ -5109,6 +5235,12 @@
 			(uuid "6cd0094d-8fdc-4a63-a34b-c6748de9f23d")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "C3")
@@ -5126,7 +5258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebbede4e-6a63-497f-9c61-b782b3198feb")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR?"
 			(at 46.99 99.06 0)
 			(effects
 				(font
@@ -5174,6 +5306,12 @@
 			(uuid "18fb99d4-2dcc-4fd8-9a86-30030b3f7649")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR08")
@@ -5192,7 +5330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef273f25-8a13-4bd5-9369-a4236ab1e98d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -5240,6 +5378,12 @@
 			(uuid "126ab7e8-8daa-415a-b08d-58e5206eff39")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR05")
@@ -5257,7 +5401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7a64eed-4ad5-4976-88d8-6c643b57c284")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 204.978 53.34 0)
 			(effects
 				(font
@@ -5307,6 +5451,12 @@
 			(uuid "5912efc4-0dc6-4a19-b2c1-fe2005810d28")
 		)
 		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/c88be03b-6e8b-44bb-b016-6e24045923b9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "C2")
