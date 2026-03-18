@@ -25,7 +25,7 @@
 		)
 		(uuid "06269762-fd2e-4c6a-9787-dcecbbe6b1a9")
 	)
-	(text "MICROPROCESADOR\n"
+	(text "MICROCONTROLADOR\n\n"
 		(exclude_from_sim no)
 		(at 64.262 48.768 0)
 		(effects
