@@ -3566,6 +3566,16 @@
 		)
 		(uuid "b9c0920f-1d27-4e9e-a62f-db518ef181ff")
 	)
+	(text "Cada sensor mide el campo magnetico\nque tiene frente a él. Como piden que\nel final de carrera sea para el motor\ndel cristal (M1), habra que poner el \nsensor hall cerca de este motor."
+		(exclude_from_sim no)
+		(at 187.198 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4ef8e99-dd73-4cb0-b797-e382e491a14c")
+	)
 	(text "H-BRIDGE 1 (M1)\n"
 		(exclude_from_sim no)
 		(at 393.446 9.652 0)
@@ -3837,15 +3847,15 @@
 		(uuid "3743f239-318c-4d46-ae80-c19b32fc1a5a")
 	)
 	(no_connect
-		(at 39.37 128.27)
+		(at 45.72 130.81)
 		(uuid "4f9d6583-c205-40b3-81f0-4d12c9ef2d44")
 	)
 	(no_connect
-		(at 39.37 115.57)
+		(at 45.72 118.11)
 		(uuid "552cc855-06bb-420e-83c9-bb4fc1304820")
 	)
 	(no_connect
-		(at 39.37 130.81)
+		(at 45.72 133.35)
 		(uuid "56ad4067-5078-44b9-b542-07e227bbe829")
 	)
 	(no_connect
@@ -3869,7 +3879,7 @@
 		(uuid "a2d44081-3df6-4022-971d-ab75b85898cb")
 	)
 	(no_connect
-		(at 39.37 123.19)
+		(at 45.72 125.73)
 		(uuid "ad9606ac-2a2c-4c71-aa9e-2a44a14a0918")
 	)
 	(no_connect
@@ -3885,7 +3895,7 @@
 		(uuid "e16ae277-d5fe-45e8-ac49-cd4af57c20a3")
 	)
 	(no_connect
-		(at 39.37 113.03)
+		(at 45.72 115.57)
 		(uuid "e51a5f10-6eba-40eb-b7a3-06c53a792a58")
 	)
 	(no_connect
@@ -3897,7 +3907,7 @@
 		(uuid "f2b9f4e0-b209-4d87-addd-c3d9b951f778")
 	)
 	(no_connect
-		(at 39.37 118.11)
+		(at 45.72 120.65)
 		(uuid "f6f0a8e9-bc43-463b-a6e3-54e0e8ffa35b")
 	)
 	(wire
@@ -4422,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 110.49) (xy 31.75 110.49)
+			(xy 45.72 113.03) (xy 53.34 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5392,7 +5402,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 110.49) (xy 31.75 113.03)
+			(xy 53.34 113.03) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5548,22 +5558,22 @@
 	)
 	(global_label "MAX_RX"
 		(shape input)
-		(at 39.37 125.73 180)
+		(at 45.72 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "16230e3e-4754-47a3-8b40-5bc48d932e41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.1882 125.73 0)
+			(at 55.9018 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5702,22 +5712,22 @@
 	)
 	(global_label "MAX_TX"
 		(shape input)
-		(at 39.37 120.65 180)
+		(at 45.72 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6bd89f3d-1c52-4b14-8cec-2d51025f573b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.4906 120.65 0)
+			(at 55.5994 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8323,7 +8333,8 @@
 	)
 	(symbol
 		(lib_id "Connector:DE9_Pins")
-		(at 46.99 120.65 0)
+		(at 38.1 123.19 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8332,7 +8343,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f5d64e5-91c9-4a75-9f6d-99661f5d5c99")
 		(property "Reference" "J2"
-			(at 52.07 119.3799 0)
+			(at 33.02 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8352,7 @@
 			)
 		)
 		(property "Value" "DE9_Pins"
-			(at 52.07 121.9199 0)
+			(at 33.02 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 120.65 0)
+			(at 38.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 120.65 0)
+			(at 38.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8379,7 @@
 			)
 		)
 		(property "Description" "9-pin D-SUB connector, pins (male)"
-			(at 46.99 120.65 0)
+			(at 38.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10511,7 +10522,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 113.03 0)
+		(at 53.34 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10520,7 +10532,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe2033ac-db90-46e2-bbe1-7ecc3182e729")
 		(property "Reference" "#PWR09"
-			(at 31.75 119.38 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10529,7 +10541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 118.11 0)
+			(at 53.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10537,7 +10549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 113.03 0)
+			(at 53.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,7 +10558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 113.03 0)
+			(at 53.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,7 +10567,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 113.03 0)
+			(at 53.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
