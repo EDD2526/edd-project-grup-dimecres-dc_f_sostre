@@ -18,7 +18,7 @@ I que incloguiu les següents caracteristiques:
 
 ## Diagrama de blocs
 
-![Diagrama de Bloc](C:\Users\Marc\WORK_SPACE\ED\edd-project-grup-dimecres-dc_f_sostre\Diagrama_de_Blocs.png)
+![Diagrama de Bloc](Diagrama_de_Blocs.png)
 
 ### Descripció/funcionalitat de cada bloc
 
