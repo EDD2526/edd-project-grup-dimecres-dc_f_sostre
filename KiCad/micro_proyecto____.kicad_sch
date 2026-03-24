@@ -1294,142 +1294,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TQPF_micro_Proyecto_44pines_1"
 			(pin_names
 				(offset 1.27)
@@ -3715,12 +3579,12 @@
 		(uuid "0dbfa159-e460-49e3-b28d-41ba1373ef5e")
 	)
 	(no_connect
-		(at 90.17 71.12)
-		(uuid "18583ed2-aaf9-4314-a4e8-6c22259ffe89")
+		(at 176.53 88.9)
+		(uuid "133064eb-bf89-4911-96e2-8743ce12eff6")
 	)
 	(no_connect
-		(at 176.53 111.76)
-		(uuid "193b4699-1060-441e-850c-f7ca1fda8a09")
+		(at 90.17 71.12)
+		(uuid "18583ed2-aaf9-4314-a4e8-6c22259ffe89")
 	)
 	(no_connect
 		(at 176.53 127)
@@ -3743,20 +3607,8 @@
 		(uuid "41b1456d-1c59-4569-a524-ab2ea55849cf")
 	)
 	(no_connect
-		(at 176.53 109.22)
-		(uuid "480fe8d0-cc9e-412b-8923-71087b924610")
-	)
-	(no_connect
-		(at 176.53 104.14)
-		(uuid "5939194a-6b25-4985-b6ab-a46d3ebfa446")
-	)
-	(no_connect
 		(at 90.17 121.92)
 		(uuid "816c0914-ac0b-4303-880e-7ddff1e1ac87")
-	)
-	(no_connect
-		(at 176.53 106.68)
-		(uuid "b4fc3c84-d508-45a0-8d9d-10ac2ebe4900")
 	)
 	(no_connect
 		(at 90.17 119.38)
@@ -5220,6 +5072,28 @@
 			)
 		)
 	)
+	(global_label "DOWN_LOW_M1_Pos_Max"
+		(shape input)
+		(at 176.53 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ea95f17-ef0b-44aa-ad73-1ed3a985fad7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.3145 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "INA1_M1"
 		(shape input)
 		(at 176.53 86.36 0)
@@ -5264,6 +5138,50 @@
 			)
 		)
 	)
+	(global_label "DOWN_LOW_M1_Pos_Min"
+		(shape input)
+		(at 176.53 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab3ba020-1bf2-426d-b429-add956f4fef9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.8912 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HIGH_UP_M1_Pos_Min"
+		(shape input)
+		(at 176.53 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b471593f-2638-4fd0-a92f-1bdb64407e83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.8351 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SCL"
 		(shape input)
 		(at 90.17 111.76 180)
@@ -5282,6 +5200,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HIGH_UP_M1_Pos_Max"
+		(shape input)
+		(at 176.53 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7c3d65c-b157-4a7d-8760-9378ddc22558")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.2584 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5619,6 +5559,74 @@
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 40.64 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c8c06fb-bd86-41a2-8c97-6e54da7dbb93")
+		(property "Reference" "SW4"
+			(at 40.64 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 40.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 40.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 40.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b32e5958-1001-42cf-abc1-7a8ba8386165")
+		)
+		(pin "1"
+			(uuid "4882c7a4-e910-410a-b349-c75477d16a12")
+		)
+		(instances
+			(project "micro_proyecto____"
+				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6894,74 +6902,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 40.64 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64ccd795-0fc8-492a-a176-c3d0f8c107e6")
-		(property "Reference" "SW5"
-			(at 40.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 40.64 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-50xx"
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7980062-c728-4e9a-868f-27647d2094ed")
-		)
-		(pin "1"
-			(uuid "d6510156-1dde-4244-ba50-d48ea771323b")
-		)
-		(instances
-			(project "micro_proyecto____"
-				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 60.96 0)
 		(unit 1)
@@ -7309,74 +7249,6 @@
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 35.56 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7787af9e-9ed1-4743-9597-e29d9c73fa4f")
-		(property "Reference" "SW2"
-			(at 35.56 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 35.56 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-50xx"
-			(at 35.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 35.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "48c41d86-7814-4bb9-a56b-b7e230f3ec17")
-		)
-		(pin "1"
-			(uuid "3794baf1-4d1a-446c-8f5b-a6de7fc9ee11")
-		)
-		(instances
-			(project ""
-				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7796,74 +7668,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 40.64 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a6bb43d-5106-481b-80e7-500a136171b2")
-		(property "Reference" "SW4"
-			(at 40.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 40.64 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-50xx"
-			(at 40.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 40.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe9b2d66-6345-47a9-8c95-836f68bb2ce6")
-		)
-		(pin "1"
-			(uuid "693fb975-b69d-48c0-8f20-b68ca4a817f2")
-		)
-		(instances
-			(project "micro_proyecto____"
-				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 144.78 153.67 0)
 		(mirror y)
@@ -8198,6 +8002,74 @@
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f35c0e0-e540-4e4d-b09d-9b89d17ff5dd")
+		(property "Reference" "SW2"
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c74ed2c-3a49-441c-8f91-bb1a5a00fd1f")
+		)
+		(pin "1"
+			(uuid "7fc42f72-3cf9-4c2f-b3e5-c58074aecd9a")
+		)
+		(instances
+			(project "micro_proyecto____"
+				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8695,6 +8567,74 @@
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6f56a4f-dc79-4c15-87a0-a42d33451fa1")
+		(property "Reference" "SW5"
+			(at 35.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f5d75a1-ccff-4b24-9456-3ffcee38e503")
+		)
+		(pin "1"
+			(uuid "2264af50-598f-4382-badb-0ddc7bf556ce")
+		)
+		(instances
+			(project "micro_proyecto____"
+				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -9465,6 +9405,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 40.64 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4ab8663-c9b3-4b3c-a590-86480f7f8236")
+		(property "Reference" "SW3"
+			(at 40.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 40.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 40.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed5f1fed-5a22-43c7-a4a3-5587da5f231c")
+		)
+		(pin "1"
+			(uuid "2df0ae70-e811-4f79-a243-14639c1edca6")
+		)
+		(instances
+			(project "micro_proyecto____"
+				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 134.62 55.88 0)
 		(unit 1)
@@ -9531,74 +9539,6 @@
 			(project "micro_proyecto____"
 				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 35.56 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec4f34f4-8e36-441e-9157-171496098d6a")
-		(property "Reference" "SW3"
-			(at 35.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 35.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-50xx"
-			(at 35.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 35.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "839b1393-eb50-42fb-93fb-01c39ec57b92")
-		)
-		(pin "1"
-			(uuid "7eb99e51-346e-437d-829b-deb162d67f30")
-		)
-		(instances
-			(project "micro_proyecto____"
-				(path "/c4c94159-49e2-4891-b955-afc2ed1734a3"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
