@@ -640,6 +640,17 @@
 		)
 		(uuid "73dc6dd8-5301-4b75-9d26-e52419c27d88")
 	)
+	(text "Parte Analogica que consiste en solo unos 2 sensores de Antiatrapamiento que usan una Resistencia Shunt \ncada uno para medir el cambio de Corriente más minimo para saber si se esta atrapando algo (porque Cambio\nde Corriente = A que el motor no avanza normal => Algo hay atrapado (y la idea es que esto se lo mande \nel sensor al uC y así este pare automaticamente el motor y no haya un accidente grave por lo que se haya \nquedado atrapado))."
+		(exclude_from_sim no)
+		(at 178.308 172.974 0)
+		(effects
+			(font
+				(size 1.2192 1.2192)
+			)
+			(justify left)
+		)
+		(uuid "b3827d8e-992e-4c7e-8cad-652f76fb9fed")
+	)
 	(text "MOTOR 2 (cortineta)\nA1: GND , A0: VCC --> dirreción = 0 1  (para el I2C)"
 		(exclude_from_sim no)
 		(at 90.17 102.108 0)
