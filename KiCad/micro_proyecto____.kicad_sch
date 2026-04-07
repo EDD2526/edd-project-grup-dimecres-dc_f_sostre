@@ -3632,6 +3632,10 @@
 		(uuid "196993a4-f650-4780-a408-b70c47945963")
 	)
 	(no_connect
+		(at 90.17 78.74)
+		(uuid "1c32b2e2-43a7-44af-b317-394498e7c93b")
+	)
+	(no_connect
 		(at 176.53 124.46)
 		(uuid "21fc566a-094c-4c8b-a857-7f66dc4f349f")
 	)
@@ -5227,28 +5231,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Sensor_Hall"
-		(shape input)
-		(at 90.17 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4bdd3cd2-1564-4890-b2b1-b0e2e178e544")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.9969 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
