@@ -1725,6 +1725,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 109.22 124.46 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1732,7 +1733,7 @@
 		(dnp no)
 		(uuid "3409868c-2286-4e33-a17d-ce340a6fb9b3")
 		(property "Reference" "C20"
-			(at 110.49 127.508 0)
+			(at 107.95 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1742,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 110.49 130.048 0)
+			(at 107.95 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1751,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 110.1852 128.27 0)
+			(at 108.2548 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

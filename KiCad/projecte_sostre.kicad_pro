@@ -188,6 +188,9 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
+        0.6,
+        0.8,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -492,9 +495,19 @@
         "clearance": 0.3,
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.45,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
         "via_diameter": 0.8,
         "via_drill": 0.4
       },
@@ -502,19 +515,28 @@
         "clearance": 0.3,
         "name": "New5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.4,
         "via_diameter": 0.8,
         "via_drill": 0.4
       },
       {
+        "clearance": 0.2,
+        "name": "Peligro",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.75,
+        "via_diameter": 1.0
+      },
+      {
         "clearance": 0.25,
         "name": "VCC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.8,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -522,7 +544,7 @@
         "clearance": 0.2,
         "name": "Vbat",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
         "via_diameter": 1.0,
@@ -540,11 +562,11 @@
         "pattern": "+3.3V"
       },
       {
-        "netclass": "New5V",
+        "netclass": "Vbat",
         "pattern": "5V"
       },
       {
-        "netclass": "Vbat",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
@@ -553,27 +575,47 @@
       },
       {
         "netclass": "Vbat",
-        "pattern": "/Power_Supply/Vbat_after_D1"
-      },
-      {
-        "netclass": "5V",
-        "pattern": "/Power_Supply/OUT_buck_D4_y_L1"
+        "pattern": "/Power_Supply/Vbat_before_D3"
       },
       {
         "netclass": "Vbat",
-        "pattern": "/Power_Supply/M2_OUT2"
+        "pattern": "/Power_Supply/realimentación_buck_converter"
+      },
+      {
+        "netclass": "Peligro",
+        "pattern": "M2_OUT2"
+      },
+      {
+        "netclass": "Peligro",
+        "pattern": "M1_OUT2"
+      },
+      {
+        "netclass": "Peligro",
+        "pattern": "M2_OUT1"
+      },
+      {
+        "netclass": "Peligro",
+        "pattern": "M1_OUT1"
       },
       {
         "netclass": "Vbat",
-        "pattern": "/Power_Supply/M1_OUT2"
+        "pattern": "SENSE_A"
       },
       {
         "netclass": "Vbat",
-        "pattern": "/Power_Supply/M2_OUT1"
+        "pattern": "SENSE_B"
       },
       {
         "netclass": "Vbat",
-        "pattern": "/Power_Supply/M1_OUT1"
+        "pattern": "/Power_Supply/entre_D3_y_L1"
+      },
+      {
+        "netclass": "VCC",
+        "pattern": "AVDD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },
@@ -655,12 +697,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Descripción",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
