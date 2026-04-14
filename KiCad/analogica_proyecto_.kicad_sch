@@ -2901,7 +2901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f5e4545-13a4-4c21-a2ee-f74d2dde0c68")
-		(property "Reference" "TP_SDA"
+		(property "Reference" "TP_SDA0"
 			(at 69.85 63.5 0)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 69.85 68.58 0)
 			(effects
 				(font
@@ -2953,7 +2953,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_SDA")
+					(reference "TP_SDA0")
 					(unit 1)
 				)
 			)
@@ -2987,7 +2987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 57.15 139.7 0)
 			(effects
 				(font
@@ -3036,7 +3036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e84114c-4186-4e36-8156-697e4063ab7c")
-		(property "Reference" "TP_5V"
+		(property "Reference" "TP_5V0"
 			(at 35.56 135.1279 0)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 38.1 139.7 0)
 			(effects
 				(font
@@ -3087,7 +3087,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_5V")
+					(reference "TP_5V0")
 					(unit 1)
 				)
 			)
@@ -3119,7 +3119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 69.85 114.3 0)
 			(effects
 				(font
@@ -3187,7 +3187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 69.85 105.41 0)
 			(effects
 				(font
@@ -3399,7 +3399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 80.01 148.59 0)
 			(effects
 				(font
@@ -3464,7 +3464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -3667,7 +3667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "460b0f52-e8e7-4e35-becd-2285cf875ded")
-		(property "Reference" "TP_SCL"
+		(property "Reference" "TP_SCL0"
 			(at 69.85 72.39 0)
 			(effects
 				(font
@@ -3683,7 +3683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 69.85 77.47 0)
 			(effects
 				(font
@@ -3719,7 +3719,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_SCL")
+					(reference "TP_SCL0")
 					(unit 1)
 				)
 			)
@@ -3883,7 +3883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 57.15 148.59 0)
 			(effects
 				(font
@@ -4025,7 +4025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -4370,7 +4370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 69.85 87.63 0)
 			(effects
 				(font
@@ -4716,7 +4716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 80.01 139.7 0)
 			(effects
 				(font
@@ -5063,7 +5063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 80.01 157.48 0)
 			(effects
 				(font
@@ -5401,7 +5401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 57.15 130.81 0)
 			(effects
 				(font
@@ -5525,7 +5525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec36d2a8-5353-4c96-9ae5-7457b36d9669")
-		(property "Reference" "TP_Vbat"
+		(property "Reference" "TP_Vbat0"
 			(at 35.56 144.0179 0)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 38.1 148.59 0)
 			(effects
 				(font
@@ -5576,7 +5576,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_Vbat")
+					(reference "TP_Vbat0")
 					(unit 1)
 				)
 			)
@@ -5769,7 +5769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 38.1 130.81 0)
 			(effects
 				(font
