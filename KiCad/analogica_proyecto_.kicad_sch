@@ -2404,7 +2404,7 @@
 			)
 		)
 	)
-	(global_label "INA1_M1"
+	(global_label "INA2_M1"
 		(shape input)
 		(at 62.23 96.52 180)
 		(fields_autoplaced yes)
