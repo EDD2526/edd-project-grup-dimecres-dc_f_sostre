@@ -2426,28 +2426,6 @@
 			)
 		)
 	)
-	(global_label "AVDD"
-		(shape input)
-		(at 193.04 60.96 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8bb38c48-872d-402d-b3cd-1cbcb24c962d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 53.2576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "INB2_M2"
 		(shape input)
 		(at 62.23 87.63 180)
@@ -2576,28 +2554,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AVDD"
-		(shape input)
-		(at 193.04 102.87 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3e0233c-3f4f-4510-b7cc-d7ca2e8fe9de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 95.1676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3094,6 +3050,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 193.04 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec330fa-ae0c-45e5-b726-1a2522b7a5c3")
+		(property "Reference" "#PWR099"
+			(at 193.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9d621b4-07b2-4ab4-8fc6-303fda5ee4d6")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 69.85 114.3 0)
 		(unit 1)
@@ -3298,7 +3320,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 152.4 120.65 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3306,7 +3327,7 @@
 		(dnp no)
 		(uuid "3409868c-2286-4e33-a17d-ce340a6fb9b3")
 		(property "Reference" "C20"
-			(at 151.13 123.698 0)
+			(at 153.67 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3336,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 151.13 126.238 0)
+			(at 153.67 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3345,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 151.4348 124.46 0)
+			(at 153.3652 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,6 +5051,72 @@
 			(project "analogica_proyecto_"
 				(path "/7d066c7f-f77f-4f00-8837-15c2de393720"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 193.04 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfc70718-9322-48bb-9356-5dfaf169b2e8")
+		(property "Reference" "#PWR098"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be78362b-f861-4fac-8de9-8dbc8cbb5a0d")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
