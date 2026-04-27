@@ -3622,12 +3622,20 @@
 		(uuid "14d7b473-8842-49bc-8c99-d528fac403cf")
 	)
 	(no_connect
-		(at 90.17 71.12)
+		(at 176.53 91.44)
 		(uuid "2cb7abf3-f913-4a0d-bc1a-d1445ed48148")
 	)
 	(no_connect
 		(at 90.17 68.58)
 		(uuid "5a72d181-3d29-4cae-b827-94c415baf300")
+	)
+	(no_connect
+		(at 90.17 101.6)
+		(uuid "5bb09592-0fa9-469c-8385-56bfb644b1be")
+	)
+	(no_connect
+		(at 176.53 127)
+		(uuid "77bf5de0-a7d8-4328-a0af-9dbcea02536c")
 	)
 	(no_connect
 		(at 176.53 93.98)
@@ -4915,6 +4923,16 @@
 		)
 		(uuid "2bef4827-cfa8-4726-a68c-0e8653ab1550")
 	)
+	(label "entre_D2_R3"
+		(at 38.1 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "396616cc-97c3-47d8-b584-89cd9a2f5b16")
+	)
 	(label "VCAP"
 		(at 148.59 137.16 0)
 		(effects
@@ -5004,6 +5022,16 @@
 			(justify left bottom)
 		)
 		(uuid "a226f5fe-3044-4650-b856-4bcca989f556")
+	)
+	(label "entre_D1_R2"
+		(at 27.94 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4191556-1f56-4ca4-af92-d2473c8e7a60")
 	)
 	(label "ON{slash}OFF_LED"
 		(at 187.96 153.67 0)
@@ -5637,22 +5665,22 @@
 	)
 	(global_label "USART_TX"
 		(shape input)
-		(at 176.53 127 0)
+		(at 90.17 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e32292a3-c30a-4d82-8fb1-c01fc3598017")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.5261 127 0)
+			(at 78.1739 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
