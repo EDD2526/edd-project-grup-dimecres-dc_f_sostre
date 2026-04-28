@@ -79,8 +79,8 @@ I que incloguiu les següents caracteristiques:
 | 24/03/26 | Marc         | Master | versió 2 | Layout: corregeixo algunes coses    					|
 | 30/03/26 | Nabel         | Master | versió 3 | Layout: rutejat part Digital    |
 | 31/03/26 | Marc         | Master | versió 4 | Layout: treballo part potencia, H_Bridge    |
-| 08/03/26 | Marc i Nabel        | Master | versió 5 | Layout: treballem a clase i l'intentem possar a punt |
- | 15/03/26 | Marc i Nabel        | Master | versió 6 | Layout: corregim algunes coses com tema de plans i posar plans de massa digitla y power | | 27/03/26 | Nabel         | Master | versió 1 | Faig el pressupost |  								| 28/03/26 | Marc      | Master | versió 7 | Layout: acabo el Layout posant uns canvis proposat pel profesor
+| 08/04/26 | Marc i Nabel        | Master | versió 5 | Layout: treballem a clase i l'intentem possar a punt |
+ | 15/04/26 | Marc i Nabel        | Master | versió 6 | Layout: corregim algunes coses com tema de plans i posar plans de massa digitla y power |  27/04/26 | Nabel         | Master | versió 1 | Faig el pressupost |  								| 28/04/26 | Marc      | Master | versió 7 | Layout: acabo el Layout posant uns canvis proposat pel profesor
 
 
 
