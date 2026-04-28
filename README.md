@@ -67,21 +67,22 @@ I que incloguiu les següents caracteristiques:
 
 ## Historial de canvis
 
-| Data     | Autor         | Branch | Versió   | Descripció                                                                 |
-|----------|--------------|--------|----------|----------------------------------------------------------------------------|
-| 10/03/26 | Nabel i Marc | Master | versió 1 | Seleccionem els components i creem la primera versió del Diagrama de Bloc |
-| 14/03/26 | Nabel        | Master | versió 2 | Actualització del Diagrama de Bloc                                        |
-| 16/03/26 | Marc         | Master | versió 1 | Esquemàtic: creació dels subapartats del projecte                         |
-| 17/03/26 | Marc         | Master | versió 2 | Esquemàtic: faig la part del uC i de Digital                              |
-| 17/03/26 | Nabel        | Master | versió 3 | Esquemàtic: faig la part de power i analògica                             |
-| 22/03/26 | Marc         | Master | versió 4 | Esquemàtic: correcció d’errades i assignació de footprints                |
-| 24/03/26 | Nabel        | Master | versió 1 | Layout: faig el rutejat de la majoria dels components                     |
-| 24/03/26 | Marc         | Master | versió 2 | Layout: corregeixo algunes coses    					|
-| 30/03/26 | Nabel         | Master | versió 3 | Layout: rutejat part Digital    |
-| 31/03/26 | Marc         | Master | versió 4 | Layout: treballo part potencia, H_Bridge    |
-| 08/04/26 | Marc i Nabel        | Master | versió 5 | Layout: treballem a clase i l'intentem possar a punt |
- | 15/04/26 | Marc i Nabel        | Master | versió 6 | Layout: corregim algunes coses com tema de plans i posar plans de massa digitla y power |
-|  27/04/26 | Nabel         | Master | versió 1 | Faig el pressupost |  								  | 28/04/26 | Marc      | Master | versió 7 | Layout: acabo el Layout posant uns canvis proposat pel profesor
+| Data     | Autor           | Branch | Versió   | Descripció                                                                 |
+|----------|-----------------|--------|----------|----------------------------------------------------------------------------|
+| 10/03/26 | Nabel i Marc    | Master | versió 1 | Seleccionem els components i creem la primera versió del Diagrama de Bloc |
+| 14/03/26 | Nabel           | Master | versió 2 | Actualització del Diagrama de Bloc                                        |
+| 16/03/26 | Marc            | Master | versió 1 | Esquemàtic: creació dels subapartats del projecte                         |
+| 17/03/26 | Marc            | Master | versió 2 | Esquemàtic: faig la part del uC i de Digital                              |
+| 17/03/26 | Nabel           | Master | versió 3 | Esquemàtic: faig la part de power i analògica                             |
+| 22/03/26 | Marc            | Master | versió 4 | Esquemàtic: correcció d’errades i assignació de footprints                |
+| 24/03/26 | Nabel           | Master | versió 1 | Layout: faig el rutejat de la majoria dels components                     |
+| 24/03/26 | Marc            | Master | versió 2 | Layout: corregeixo algunes coses                                          |
+| 30/03/26 | Nabel           | Master | versió 3 | Layout: rutejat part Digital                                              |
+| 31/03/26 | Marc            | Master | versió 4 | Layout: treballo part potencia, H_Bridge                                  |
+| 08/04/26 | Marc i Nabel    | Master | versió 5 | Layout: treballem a classe i l'intentem posar a punt                      |
+| 15/04/26 | Marc i Nabel    | Master | versió 6 | Layout: corregim algunes coses com tema de plans i posar plans de massa digital i power |
+| 27/04/26 | Nabel           | Master | versió 1 | Faig el pressupost                                                       |
+| 28/04/26 | Marc            | Master | versió 7 | Layout: acabo el Layout posant uns canvis proposats pel professor         |
 
 
 
