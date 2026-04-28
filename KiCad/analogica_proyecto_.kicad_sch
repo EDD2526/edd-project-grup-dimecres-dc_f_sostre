@@ -1432,16 +1432,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 105.41) (xy 76.2 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e3144a-c1bd-4aa6-8f37-4b6639898888")
-	)
-	(wire
-		(pts
 			(xy 74.93 77.47) (xy 76.2 77.47)
 		)
 		(stroke
@@ -1482,6 +1472,26 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 168.91) (xy 33.02 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24783f6a-679e-40d3-8cfe-8f6501b7307c")
+	)
+	(wire
+		(pts
+			(xy 33.02 189.23) (xy 33.02 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c68b37-221f-41c7-8307-5201e90ea85f")
+	)
+	(wire
+		(pts
 			(xy 62.23 96.52) (xy 64.77 96.52)
 		)
 		(stroke
@@ -1499,16 +1509,6 @@
 			(type default)
 		)
 		(uuid "312a0658-2f04-4b4d-9830-04ba0e20fa18")
-	)
-	(wire
-		(pts
-			(xy 62.23 114.3) (xy 64.77 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31412bf6-b92c-4168-8de6-847ee3f82114")
 	)
 	(wire
 		(pts
@@ -1602,6 +1602,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 189.23) (xy 33.02 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fa578b-f2e7-4552-ba94-867bc478aadf")
+	)
+	(wire
+		(pts
 			(xy 227.33 120.65) (xy 237.49 120.65)
 		)
 		(stroke
@@ -1689,6 +1699,16 @@
 			(type default)
 		)
 		(uuid "6563deb2-7bba-4571-8767-28a8e2e5e87f")
+	)
+	(wire
+		(pts
+			(xy 33.02 179.07) (xy 33.02 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65662fed-fbdf-4315-8ece-26b094f74d48")
 	)
 	(wire
 		(pts
@@ -1872,6 +1892,26 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 160.02) (xy 33.02 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e77b18-5ec9-4ffd-beaa-0d2b76d71f33")
+	)
+	(wire
+		(pts
+			(xy 33.02 167.64) (xy 33.02 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a074dc3-be8d-4092-9f3f-48bbc0eb247e")
+	)
+	(wire
+		(pts
 			(xy 204.47 71.12) (xy 209.55 71.12)
 		)
 		(stroke
@@ -1952,16 +1992,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 105.41) (xy 64.77 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b12ed822-82cd-41c0-9fb7-37647983d4cb")
-	)
-	(wire
-		(pts
 			(xy 152.4 86.36) (xy 179.07 86.36)
 		)
 		(stroke
@@ -1992,6 +2022,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 158.75) (xy 33.02 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b471c125-6fcb-45b5-a9e3-60b46d75dcc5")
+	)
+	(wire
+		(pts
 			(xy 193.04 104.14) (xy 193.04 106.68)
 		)
 		(stroke
@@ -1999,6 +2039,16 @@
 			(type default)
 		)
 		(uuid "b55451b3-84bf-45f9-88f2-31cbfc207e7b")
+	)
+	(wire
+		(pts
+			(xy 26.67 179.07) (xy 33.02 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b745c138-ce61-4db2-9db3-7aaa4837bbf7")
 	)
 	(wire
 		(pts
@@ -2102,16 +2152,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 114.3) (xy 76.2 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b479cb-1bc2-48d8-a641-b3b111105913")
-	)
-	(wire
-		(pts
 			(xy 179.07 128.27) (xy 193.04 128.27)
 		)
 		(stroke
@@ -2210,7 +2250,7 @@
 		)
 		(uuid "fd4cdf8b-7a92-4e22-8c67-794d820077f7")
 	)
-	(label "IN-"
+	(label "IN-_M1"
 		(at 204.47 78.74 0)
 		(effects
 			(font
@@ -2220,7 +2260,7 @@
 		)
 		(uuid "3e7fa6f3-db55-432c-a727-d3a7bcc1b7e1")
 	)
-	(label "IN+"
+	(label "IN+_M2"
 		(at 204.47 113.03 0)
 		(effects
 			(font
@@ -2230,7 +2270,7 @@
 		)
 		(uuid "4cb545e0-1fc1-425e-bbec-ae622b527b4b")
 	)
-	(label "IN-"
+	(label "IN-_M2"
 		(at 204.47 120.65 0)
 		(effects
 			(font
@@ -2240,7 +2280,7 @@
 		)
 		(uuid "bb320c92-cd1a-4370-b07e-3c334813b27d")
 	)
-	(label "IN+"
+	(label "IN+_M1"
 		(at 204.47 71.12 0)
 		(effects
 			(font
@@ -2294,9 +2334,9 @@
 			)
 		)
 	)
-	(global_label "SENSE_B"
+	(global_label "USART_RX"
 		(shape input)
-		(at 62.23 114.3 180)
+		(at 26.67 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2304,9 +2344,9 @@
 			)
 			(justify right)
 		)
-		(uuid "19a4d7e8-3a9a-431b-afb8-75a910b46cac")
+		(uuid "26949e6c-6a81-4dd8-a7b2-d346ca780744")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.9597 114.3 0)
+			(at 14.3715 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,6 +2413,28 @@
 		(uuid "69506055-4f05-4587-ba0f-ef758e4c183b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.5553 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART_TX"
+		(shape input)
+		(at 26.67 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72722ddd-5473-4c09-8afd-979c6172176d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.6739 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,6 +2532,28 @@
 			)
 		)
 	)
+	(global_label "CAN_RX"
+		(shape input)
+		(at 26.67 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af1e3394-d249-459c-95db-64ac1497cf8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.5486 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SCL"
 		(shape input)
 		(at 62.23 77.47 180)
@@ -2483,28 +2567,6 @@
 		(uuid "b18b7a1c-3bb1-4b0c-8b93-0ee9a003a3e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.6853 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SENSE_A"
-		(shape input)
-		(at 62.23 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b749779a-3ebe-415d-97c3-07c94f9ee71e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.1411 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,6 +2611,28 @@
 		(uuid "c0a401f7-0d7b-4b13-9a53-5efdc8e69fb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.5553 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_TX"
+		(shape input)
+		(at 26.67 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d003ebea-25f6-4f4c-9ba3-5158c78ad47b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.851 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,136 +2731,6 @@
 			(project "analogica_proyecto_"
 				(path "/7d066c7f-f77f-4f00-8837-15c2de393720"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 76.2 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02d2b8ed-3f40-45e0-a66c-d5ff52627088")
-		(property "Reference" "#PWR089"
-			(at 76.2 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 81.534 115.062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c659835-29b5-4246-8c0e-296e3dab5575")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 76.2 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bb13ca6-330f-4318-88b5-f089c5c4c4f8")
-		(property "Reference" "#PWR088"
-			(at 76.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 81.534 106.172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86cb1f7f-6fdd-4072-af64-a7b7c9299895")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -2943,7 +2897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 57.15 139.7 0)
 			(effects
 				(font
@@ -3010,7 +2964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 38.1 139.7 0)
 			(effects
 				(font
@@ -3116,33 +3070,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 69.85 114.3 0)
+		(lib_id "Connector:TestPoint")
+		(at 52.07 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "23474020-7bf8-4412-aa95-48f8ac405f3d")
-		(property "Reference" "TP_Rshunt2"
-			(at 69.85 109.22 0)
+		(uuid "22e03dca-7323-49ab-b6a5-9edf0f99a943")
+		(property "Reference" "TP_GND5"
+			(at 54.61 163.0679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_2Pole"
-			(at 69.85 111.76 0)
+		(property "Value" "TestPoint"
+			(at 54.61 165.6079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 69.85 114.3 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 57.15 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 114.3 0)
+			(at 57.15 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,8 +3115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-polar test point"
-			(at 69.85 114.3 0)
+		(property "Description" "test point"
+			(at 52.07 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,48 +3125,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "9deae500-31e6-47ff-b875-78df6ef3b29d")
-		)
-		(pin "2"
-			(uuid "32c4ed80-a7ba-4eb2-af25-10bd255ae1ae")
+			(uuid "6557b8c3-5f91-4c4d-a8bf-308b99b37a74")
 		)
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_Rshunt2")
+					(reference "TP_GND5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 69.85 105.41 0)
+		(lib_id "Connector:TestPoint")
+		(at 33.02 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "290edcd8-a2ec-482d-9cf3-c5839d59cc70")
-		(property "Reference" "TP_Rshunt1"
-			(at 69.85 100.33 0)
+		(uuid "2fa16a06-d860-46fd-8775-f08e0e1fac8c")
+		(property "Reference" "TP_USART_RX1"
+			(at 35.56 173.2279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_2Pole"
-			(at 69.85 102.87 0)
+		(property "Value" "TestPoint"
+			(at 35.56 175.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 69.85 105.41 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 38.1 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 105.41 0)
+			(at 38.1 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,8 +3182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-polar test point"
-			(at 69.85 105.41 0)
+		(property "Description" "test point"
+			(at 33.02 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,15 +3192,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6743339-217c-4fa7-9fbe-5d7e3b33f2d9")
-		)
-		(pin "2"
-			(uuid "2f48ce6c-8780-4759-8f47-a426b546ae27")
+			(uuid "77d50cf7-f070-4953-addf-54579cbe328f")
 		)
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_Rshunt1")
+					(reference "TP_USART_RX1")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 80.01 148.59 0)
 			(effects
 				(font
@@ -3679,6 +3631,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "410ffb4f-f45d-4f8f-a93d-7cc0468a5c95")
+		(property "Reference" "TP_GND4"
+			(at 77.47 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.47 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aa46149-8254-4950-b438-06f9160490af")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "TP_GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 69.85 77.47 0)
 		(unit 1)
@@ -3904,7 +3923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 57.15 148.59 0)
 			(effects
 				(font
@@ -4019,6 +4038,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 52.07 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6958f7b6-e193-434b-87bc-8c4d16239b2c")
+		(property "Reference" "#PWR089"
+			(at 52.07 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.626 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ab5250a-6810-45ec-b03f-066b7007b407")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 74.93 129.54 0)
 		(unit 1)
@@ -4046,7 +4130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -4366,74 +4450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 69.85 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8948f561-26ca-4cdf-8ac4-2f4458d97183")
-		(property "Reference" "TP_PWM_M2"
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 69.85 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 69.85 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 69.85 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76d0a9d5-63f4-4bb8-a88f-db5cd609cbe5")
-		)
-		(pin "2"
-			(uuid "be691429-f142-4877-bfb1-e871bd353bf2")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_PWM_M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 209.55 116.84 0)
 		(unit 1)
@@ -4574,6 +4590,73 @@
 			(project "analogica_proyecto_"
 				(path "/7d066c7f-f77f-4f00-8837-15c2de393720"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b644611-292c-470d-a7ff-f5a2313d151f")
+		(property "Reference" "TP_CAN_TX1"
+			(at 35.56 163.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.56 165.6079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "592f4c8a-c4e6-4d02-8993-ce32cf66e49b")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "TP_CAN_TX1")
 					(unit 1)
 				)
 			)
@@ -4737,7 +4820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 80.01 139.7 0)
 			(effects
 				(font
@@ -5124,6 +5207,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 33.02 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c06edb4f-ccae-454e-bbbb-53b1a224684d")
+		(property "Reference" "TP_CAN_RX1"
+			(at 35.56 154.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.56 156.7179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88754689-0288-4bd7-9d7f-878431c6d7cb")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "TP_CAN_RX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 74.93 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5150,7 +5300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 80.01 157.48 0)
 			(effects
 				(font
@@ -5385,6 +5535,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9c0f28f-a1a2-4af1-9649-c79cb32c6d1d")
+		(property "Reference" "TP_USART_RX2"
+			(at 35.56 183.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.56 185.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 38.1 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15407f74-0303-433a-b035-f55d5526beda")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "TP_USART_RX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 227.33 74.93 0)
 		(unit 1)
@@ -5488,7 +5705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 57.15 130.81 0)
 			(effects
 				(font
@@ -5630,7 +5847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 38.1 148.59 0)
 			(effects
 				(font
@@ -5764,6 +5981,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 64.77 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0629835-54f9-4f41-b3df-9c173953e0e5")
+		(property "Reference" "TP_INB2_M2"
+			(at 67.31 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aefe2c9f-c2c6-4e72-b166-97bcb557c7a1")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "TP_INB2_M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 74.93 148.59 0)
 		(unit 1)
@@ -5856,7 +6140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 38.1 130.81 0)
 			(effects
 				(font
