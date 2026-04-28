@@ -56,7 +56,7 @@
 # This rule handles diameter minimum and maximum for ALL holes.
 # Other specialized rules handle restrictions (e.g. Via, PTH, NPTH) 
 (rule "Hole diameter"
-	(constraint hole_size (min 0.3mm) (max 6.3mm))
+	(constraint hole_size (min 0.15mm) (max 6.3mm))
 )
 
 (rule "Hole (NPTH) diameter"
@@ -72,19 +72,19 @@
 (rule "Annular ring width (via and PTH)"
 	(layer outer)
 	(condition "A.isPlated()")
-	(constraint annular_width (min 0.25mm))
+	(constraint annular_width (min 0.20mm))
 )
 
 (rule "Clearance: hole to hole (perimeter), different nets"
 	(layer outer)
 	(condition "A.Net != B.Net")
-	(constraint hole_to_hole (min 0.5mm))
+	(constraint hole_to_hole (min 0.2mm))
 )
 
 (rule "Clearance: hole to hole (perimeter), same net"
 	(layer outer)
 	(condition "A.Net == B.Net")
-	(constraint hole_to_hole (min 0.254mm))
+	(constraint hole_to_hole (min 0.2mm))
 )
 
 (rule "Clearance: track to NPTH hole (perimeter)"
@@ -95,7 +95,7 @@
 
 (rule "Clearance: track to PTH hole perimeter"
 	(condition "A.isPlated() && B.Type == 'track' && A.Net != B.Net")
-	(constraint hole_clearance (min 0.33mm))
+	(constraint hole_clearance (min 0.28mm))
 )
 
 # TODO: try combining with rule "Clearance: PTH to track, different nets"
@@ -105,10 +105,10 @@
 )
 
 #PODRIA CAMBIARLO, EN ALGUNOS SITIOS VEO QEU PONE EN "VIA HOLE TO HOLE SPACING: 0,2 MM"
-(rule "Clearance: pad/via to pad/via"
-	(layer outer)
+#(rule "Clearance: pad/via to pad/via"
+#	(layer outer)
 #	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via') && A.Net != B.Net")	
-	(condition "A.isPlated() && B.isPlated() && A.Net != B.Net")
-	(constraint clearance (min 0.254mm))
-)
+#	(condition "A.isPlated() && B.isPlated() && A.Net != B.Net")
+#	(constraint clearance (min 0.254padmm))
+#)
 

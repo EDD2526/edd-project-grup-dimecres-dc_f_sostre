@@ -112,137 +112,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_2Pole"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-polar test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_2Pole_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1432,16 +1301,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 77.47) (xy 76.2 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b180df8-0c71-4c79-914c-e1cdf6b16684")
-	)
-	(wire
-		(pts
 			(xy 222.25 120.65) (xy 227.33 120.65)
 		)
 		(stroke
@@ -1559,16 +1418,6 @@
 			(type default)
 		)
 		(uuid "35aa92e7-8fb4-4f95-b7f0-3a91bf2288f0")
-	)
-	(wire
-		(pts
-			(xy 74.93 68.58) (xy 76.2 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f06cfdd-46e5-453c-8362-19e8d4e3ebbe")
 	)
 	(wire
 		(pts
@@ -2737,6 +2586,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b679148-fb6b-441a-9a93-2335f2ae86ce")
+		(property "Reference" "GND10"
+			(at 77.47 91.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.47 94.4879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5432ec49-f704-420e-a27a-4d0d652de402")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "GND10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 139.7 0)
 		(unit 1)
@@ -2802,74 +2718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 69.85 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f5e4545-13a4-4c21-a2ee-f74d2dde0c68")
-		(property "Reference" "TP_SDA0"
-			(at 69.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 69.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 69.85 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 69.85 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd87670b-c7db-40b0-9cf5-f03db3b61f8d")
-		)
-		(pin "2"
-			(uuid "c7d28968-1a34-4013-9421-0df8bf087fec")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_SDA0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 52.07 139.7 0)
 		(unit 1)
@@ -2879,7 +2727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ce77811-67cd-40fd-9426-91584a04a2cb")
-		(property "Reference" "TP_GNDPWM1"
+		(property "Reference" "GND2"
 			(at 54.61 135.1279 0)
 			(effects
 				(font
@@ -2930,7 +2778,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_GNDPWM1")
+					(reference "GND2")
 					(unit 1)
 				)
 			)
@@ -3079,7 +2927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e03dca-7323-49ab-b6a5-9edf0f99a943")
-		(property "Reference" "TP_GND5"
+		(property "Reference" "GND4"
 			(at 54.61 163.0679 0)
 			(effects
 				(font
@@ -3130,7 +2978,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_GND5")
+					(reference "GND4")
 					(unit 1)
 				)
 			)
@@ -3146,7 +2994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fa16a06-d860-46fd-8775-f08e0e1fac8c")
-		(property "Reference" "TP_USART_RX1"
+		(property "Reference" "RX2"
 			(at 35.56 173.2279 0)
 			(effects
 				(font
@@ -3197,7 +3045,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_USART_RX1")
+					(reference "RX2")
 					(unit 1)
 				)
 			)
@@ -3354,7 +3202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34b80b4a-c95e-4e6c-aa8b-db90985ca983")
-		(property "Reference" "TP_GNDPWM3"
+		(property "Reference" "GND7"
 			(at 77.47 144.0179 0)
 			(effects
 				(font
@@ -3405,75 +3253,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_GNDPWM3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 69.85 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36b7651f-205a-4741-84ec-3748ba831b6b")
-		(property "Reference" "TP_PWM_M1"
-			(at 69.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 69.85 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0597266-9189-4b9f-a058-438444bb5cb8")
-		)
-		(pin "2"
-			(uuid "0e9b4b7e-697a-45e8-bc87-cde258ba68ff")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_PWM_M1")
+					(reference "GND7")
 					(unit 1)
 				)
 			)
@@ -3489,7 +3269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be69964-2049-426c-a12b-b188cafaab22")
-		(property "Reference" "Rshunt2"
+		(property "Reference" "Rsht2"
 			(at 229.87 115.5699 0)
 			(effects
 				(font
@@ -3543,7 +3323,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "Rshunt2")
+					(reference "Rsht2")
 					(unit 1)
 				)
 			)
@@ -3640,7 +3420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "410ffb4f-f45d-4f8f-a93d-7cc0468a5c95")
-		(property "Reference" "TP_GND4"
+		(property "Reference" "GND9"
 			(at 77.47 83.0579 0)
 			(effects
 				(font
@@ -3691,75 +3471,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_GND4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 69.85 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "460b0f52-e8e7-4e35-becd-2285cf875ded")
-		(property "Reference" "TP_SCL0"
-			(at 69.85 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 69.85 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 69.85 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 69.85 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5694140b-17b9-45cd-bb18-07e323c67015")
-		)
-		(pin "2"
-			(uuid "31d1eda0-fc6f-4326-9895-e7f4387bf59f")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_SCL0")
+					(reference "GND9")
 					(unit 1)
 				)
 			)
@@ -3905,7 +3617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c8ff50-e8e2-47c8-947b-03cf9c0d27c9")
-		(property "Reference" "TP_GNDPWM2"
+		(property "Reference" "GND3"
 			(at 54.61 144.0179 0)
 			(effects
 				(font
@@ -3956,7 +3668,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_GNDPWM2")
+					(reference "GND3")
 					(unit 1)
 				)
 			)
@@ -4112,7 +3824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c5cec45-5e8b-409a-ad57-dde725565000")
-		(property "Reference" "TP_GND2"
+		(property "Reference" "GND5"
 			(at 77.47 124.9679 0)
 			(effects
 				(font
@@ -4163,7 +3875,72 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_GND2")
+					(reference "GND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d4c2891-492e-4dc0-b8be-596ae79789df")
+		(property "Reference" "#PWR063"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.486 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66afae5f-3f99-4712-b844-affff90f4faa")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4239,136 +4016,6 @@
 			(project "analogica_proyecto_"
 				(path "/7d066c7f-f77f-4f00-8837-15c2de393720"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70313ea0-dbc9-4a65-89d6-bdb6fbaf8191")
-		(property "Reference" "#PWR084"
-			(at 76.2 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 79.756 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22e23480-0d39-47d5-a6c8-3cac9d1c10c6")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 74.93 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e29ca32-b04f-4b47-abcb-ac910da180de")
-		(property "Reference" "#PWR097"
-			(at 74.93 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 80.264 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 74.93 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3549053d-ae64-4d86-b226-edb7c92111d9")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -4605,7 +4252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b644611-292c-470d-a7ff-f5a2313d151f")
-		(property "Reference" "TP_CAN_TX1"
+		(property "Reference" "TX1"
 			(at 35.56 163.0679 0)
 			(effects
 				(font
@@ -4656,7 +4303,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_CAN_TX1")
+					(reference "TX1")
 					(unit 1)
 				)
 			)
@@ -4728,16 +4375,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 52.07 139.7 0)
+		(lib_id "Connector:TestPoint")
+		(at 64.77 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9f45798e-3c4c-4c2e-b7e9-7df6c0e82776")
-		(property "Reference" "#PWR090"
-			(at 52.07 144.78 0)
+		(fields_autoplaced yes)
+		(uuid "a2c925ed-1597-4d74-8958-4636b3c47801")
+		(property "Reference" "PWM_M1"
+			(at 67.31 91.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 94.4879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 69.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,16 +4411,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 57.404 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 140.97 0)
+		(property "Datasheet" "~"
+			(at 69.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,17 +4420,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 52.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 52.07 139.7 0)
+		(property "Description" "test point"
+			(at 64.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,12 +4430,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "45fa9f49-4b8a-4bcf-808d-235dc5532d30")
+			(uuid "7edf402c-9317-4912-a4fe-9c8ed2164fba")
 		)
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "#PWR090")
+					(reference "PWM_M1")
 					(unit 1)
 				)
 			)
@@ -4802,7 +4451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a476059d-1b7e-413a-b935-d19943a229b6")
-		(property "Reference" "TP_GND3"
+		(property "Reference" "GND6"
 			(at 77.47 135.1279 0)
 			(effects
 				(font
@@ -4853,7 +4502,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_GND3")
+					(reference "GND6")
 					(unit 1)
 				)
 			)
@@ -5140,6 +4789,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 52.07 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6b3b319-d015-47f0-9ac6-2c0df8df963b")
+		(property "Reference" "#PWR062"
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.626 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "691e2530-7b56-4f60-b348-2afb930127ec")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf1f7b71-648a-47f8-9043-e199de7b6fad")
+		(property "Reference" "#PWR064"
+			(at 74.93 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.486 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68176dab-0564-4d35-8357-79ef78bc39fd")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 193.04 102.87 0)
 		(unit 1)
@@ -5215,7 +4994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c06edb4f-ccae-454e-bbbb-53b1a224684d")
-		(property "Reference" "TP_CAN_RX1"
+		(property "Reference" "RX1"
 			(at 35.56 154.1779 0)
 			(effects
 				(font
@@ -5266,7 +5045,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_CAN_RX1")
+					(reference "RX1")
 					(unit 1)
 				)
 			)
@@ -5282,7 +5061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c427a9e5-31cd-418b-ae48-aff23534123c")
-		(property "Reference" "TP_GNDPWM4"
+		(property "Reference" "GND8"
 			(at 77.47 152.9079 0)
 			(effects
 				(font
@@ -5333,7 +5112,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_GNDPWM4")
+					(reference "GND8")
 					(unit 1)
 				)
 			)
@@ -5405,136 +5184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3bfea37-9d2d-4205-aed2-93f522f0d751")
-		(property "Reference" "#PWR085"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 79.756 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e416fd3-5863-44e2-9ba2-dba8f45f3510")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 52.07 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d52cc8b3-8c50-4c82-9d37-822585df11bb")
-		(property "Reference" "#PWR091"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 57.404 149.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 52.07 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b481fbf3-c206-4af3-a0c6-c2b7d6ae7853")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 33.02 187.96 0)
 		(unit 1)
@@ -5544,7 +5193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9c0f28f-a1a2-4af1-9649-c79cb32c6d1d")
-		(property "Reference" "TP_USART_RX2"
+		(property "Reference" "TX2"
 			(at 35.56 183.3879 0)
 			(effects
 				(font
@@ -5595,7 +5244,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_USART_RX2")
+					(reference "TX2")
 					(unit 1)
 				)
 			)
@@ -5611,7 +5260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd49e21-121d-4ec1-a692-f9a9dc8dcd11")
-		(property "Reference" "Rshunt1"
+		(property "Reference" "Rsht1"
 			(at 229.87 73.6599 0)
 			(effects
 				(font
@@ -5665,13 +5314,78 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "Rshunt1")
+					(reference "Rsht1")
 					(unit 1)
 				)
 			)
 			(project ""
 				(path "/7d066c7f-f77f-4f00-8837-15c2de393720"
 					(reference "Rshunt1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd6676d0-bcfe-4e37-8fc8-eeb7116819dd")
+		(property "Reference" "#PWR061"
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.626 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e53c94a0-561d-4279-a4f5-76ab004b391d")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5687,7 +5401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9fcf68c-9d09-4860-8f04-5f51e138a4da")
-		(property "Reference" "TP_GND1"
+		(property "Reference" "GND1"
 			(at 54.61 126.2379 0)
 			(effects
 				(font
@@ -5738,7 +5452,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_GND1")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -5982,6 +5696,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 64.77 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05a1b55-3214-403e-b2d1-05f5e2c65349")
+		(property "Reference" "SCL0"
+			(at 67.31 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 69.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e8256ff-1d01-413c-babe-67304f7b89bd")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "SCL0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 64.77 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5990,7 +5771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0629835-54f9-4f41-b3df-9c173953e0e5")
-		(property "Reference" "TP_INB2_M2"
+		(property "Reference" "PWM_M2"
 			(at 67.31 83.0579 0)
 			(effects
 				(font
@@ -6041,72 +5822,7 @@
 		(instances
 			(project "projecte_sostre"
 				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "TP_INB2_M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 74.93 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f209cea5-01c9-406b-852b-b822c83c1fe6")
-		(property "Reference" "#PWR096"
-			(at 74.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 80.264 149.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 74.93 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ede37f9-ba31-49f7-b31a-c8ebfe8cd7d2")
-		)
-		(instances
-			(project "projecte_sostre"
-				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
-					(reference "#PWR096")
+					(reference "PWM_M2")
 					(unit 1)
 				)
 			)
@@ -6245,6 +5961,73 @@
 			(project "analogica_proyecto_"
 				(path "/7d066c7f-f77f-4f00-8837-15c2de393720"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 64.77 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc6d4483-7554-41f8-a779-9570891461d3")
+		(property "Reference" "SDA0"
+			(at 67.31 64.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 66.5479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f64521b-e93f-4745-8086-7fba1c12a805")
+		)
+		(instances
+			(project "projecte_sostre"
+				(path "/12dc51a9-2603-4518-b497-f55f3848c2a7/e4e158bc-7b20-484f-8f94-ff020121094e"
+					(reference "SDA0")
 					(unit 1)
 				)
 			)
